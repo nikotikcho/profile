@@ -1,0 +1,92 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: #F6EFA6;
+  color: #42CAFD;
+}
+
+.container {
+  width: 600px;
+  margin: 40px auto;
+}
+.card {
+  text-align: center;
+  background-color: #F0D2D1;
+  margin: 32px auto;
+  padding-top: 60px;
+  padding-left:;
+  padding-right:;
+  padding-bottom: 48px;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #8EB19D;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+img {
+  width: 200px ;
+  height: 200px ;
+  border-radius: 50%;
+}
+
+
+a {
+  color: #6B72E1;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: rgb(150,150,150);
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social_links > li {
+  display: inline-block;
+  padding: 0px 5px;
+  font-size: 60px;
+}
+
+.social_links {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn {
+  background-color: #6B72E1;
+  padding: 15px 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.pad {
+  padding-top: 20px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
